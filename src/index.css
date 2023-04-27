@@ -1,0 +1,27 @@
+:root {
+    --color-grayish-blue: hsl(237, 18%, 59%);
+    --color-soft-red: hsl(345, 95%, 68%);
+    --color-white: hsl(0, 0%, 100%);
+    --color-dark-blue: hsl(236, 21%, 26%);
+    --color-darker-blue: hsl(235, 16%, 14%);
+    --color-darkest-blue: hsl(234, 17%, 12%);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.4rem;
+    letter-spacing: 0.592rem;
+    font-family: "Red Hat Text", sans-serif;
+    background-color: var(--color-darkest-blue);
+}
+
+h1 {
+    color: var(--color-white);
+    font-size: 2.2rem; 
+    letter-spacing: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
