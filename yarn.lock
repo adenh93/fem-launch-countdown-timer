@@ -144,6 +144,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.39.0.tgz#58b536bcc843f4cd1e02a7e6171da5c040f4d44b"
   integrity sha512-kf9RB0Fg7NZfap83B3QOqOGg9QmD9yBudqQXzzOtn3i4y7ZUXe5ONeW34Gwi+TxhH4mvj72R1Zc300KUMa9Bng==
 
+"@fontsource/red-hat-text@^4.5.12":
+  version "4.5.12"
+  resolved "https://registry.yarnpkg.com/@fontsource/red-hat-text/-/red-hat-text-4.5.12.tgz#7694225b0465c8a8a124aba0fefb3f45fb6561d3"
+  integrity sha512-404lUG4USsR9s0kmMAPmistREqXETYShCH7AhCNDe+6xEGZraaDatsbjr0zbI/4zd2Oxz/s+n3Q2miDDVsQSFA==
+
 "@humanwhocodes/config-array@^0.11.8":
   version "0.11.8"
   resolved "https://registry.yarnpkg.com/@humanwhocodes/config-array/-/config-array-0.11.8.tgz#03595ac2075a4dc0f191cc2131de14fbd7d410b9"
