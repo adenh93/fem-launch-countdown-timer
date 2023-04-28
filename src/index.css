@@ -7,6 +7,10 @@
     --color-darkest-blue: hsl(234, 17%, 12%);
 }
 
+html, body, #root {
+    height: 100%;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -16,6 +20,7 @@ body {
     letter-spacing: 0.592rem;
     font-family: "Red Hat Text", sans-serif;
     background-color: var(--color-darkest-blue);
+    background-image: url('@app/assets/images/bg-stars.svg');
 }
 
 h1 {
@@ -24,4 +29,12 @@ h1 {
     letter-spacing: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+a {
+    color: var(--color-grayish-blue);
+}
+
+a:hover {
+    color: var(--color-soft-red);
 }
