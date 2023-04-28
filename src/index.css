@@ -16,10 +16,13 @@ html {
 }
 
 body {
+    color: var(--color-grayish-blue);
     font-size: 1.4rem;
+    font-weight: 700;
     letter-spacing: 0.592rem;
+    text-transform: uppercase;
     font-family: "Red Hat Text", sans-serif;
-    background-color: var(--color-darkest-blue);
+    background-color: var(--color-darker-blue);
     background-image: url('@app/assets/images/bg-stars.svg');
 }
 
@@ -27,8 +30,6 @@ h1 {
     color: var(--color-white);
     font-size: 2.2rem; 
     letter-spacing: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
 }
 
 a {
