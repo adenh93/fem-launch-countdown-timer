@@ -1,0 +1,6 @@
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3.2rem;
+    justify-content: center;
+}
