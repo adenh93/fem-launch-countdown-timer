@@ -6,7 +6,7 @@
 
 .content {
     margin: 0 auto;
-    padding-top: 13.2rem;
+    padding-top: 13.5rem;
 }
 
 .content h1 {
@@ -15,9 +15,10 @@
 
 .parallaxImg {
     position: absolute;
+    height: 26.6rem;
     width: 100%;
-    height: auto;
-    bottom: 0;
+    object-fit: cover;
+    bottom: -6.9rem;
     left: 0;
 }
 
@@ -26,4 +27,20 @@
     left: 50%;
     transform: translateX(-50%);
     bottom: 7.2rem;
+}
+
+@media (max-width: 37.5rem) {
+    .content {
+        padding-top: 14.2rem; 
+    }
+
+    .content h1 {
+        margin-bottom: 5.4rem;
+    } 
+
+    .parallaxImg {
+        height: 16.8rem;
+        width: 100%;
+        bottom: 0;
+    }
 }

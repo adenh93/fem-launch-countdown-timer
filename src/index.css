@@ -39,3 +39,15 @@ a {
 a:hover {
     color: var(--color-soft-red);
 }
+
+@media (max-width: 37.5rem) {
+    h1 {
+        font-size: 1.8rem;
+        letter-spacing: 0.614rem;
+    } 
+
+    body {
+        font-size: 0.7rem;
+        letter-spacing: 0.296rem;
+    }
+}
