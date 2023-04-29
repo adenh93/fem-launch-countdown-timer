@@ -4,3 +4,9 @@
     justify-content: center;
     column-gap: 3.2rem; 
 }
+
+@media (max-width: 37.5rem) {
+    .container {
+        column-gap: 1.6rem; 
+    }
+}
