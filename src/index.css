@@ -5,6 +5,7 @@
     --color-dark-blue: hsl(236, 21%, 26%);
     --color-darker-blue: hsl(235, 16%, 14%);
     --color-darkest-blue: hsl(234, 17%, 12%);
+    --color-black-transparent: rgba(0, 0, 0, 0.15);
 }
 
 html, body, #root {
